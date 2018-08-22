@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opten.Web.Http", "src\Opten.Web.Http\Opten.Web.Http.csproj", "{68C9CA7E-9208-4108-8FE7-CFC662702AFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{14DB0A83-1370-41F9-8089-FDEF2A3AB45D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{68DA2C21-A6B2-44FC-AB0E-202DF569FDC4}"
+	ProjectSection(SolutionItems) = preProject
+		build\build.cake = build\build.cake
+		build\build.ps1 = build\build.ps1
+		build\Opten.Web.Http.nuspec = build\Opten.Web.Http.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C9CA7E-9208-4108-8FE7-CFC662702AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C9CA7E-9208-4108-8FE7-CFC662702AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C9CA7E-9208-4108-8FE7-CFC662702AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C9CA7E-9208-4108-8FE7-CFC662702AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEE9CA63-91B2-48DB-B29E-8C9EC829E6AA}
+	EndGlobalSection
+EndGlobal

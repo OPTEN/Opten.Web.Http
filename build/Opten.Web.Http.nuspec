@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>Opten.Web.Http</id>
+		<version></version>
+		<title>Opten.Web.Http</title>
+		<authors>OPTEN AG</authors>
+		<owners>OPTEN AG</owners>
+		<projectUrl>https://bitbucket.org/opten/opten-solutions</projectUrl>
+		<description><![CDATA[OPTEN HTTP Library]]></description>
+		<iconUrl>http://www.opten.ch/nuget/logo.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<releaseNotes></releaseNotes>
+		<tags>opten</tags>
+		<dependencies>
+			<dependency id="Opten.Common" version="src\Opten.Web.Http\packages.config" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="src\Opten.Web.Http\bin\Release\Opten.Web.Http.dll" target="lib\net45" />
+		<file src="src\Opten.Web.Http\bin\Release\Opten.Web.Http.pdb" target="lib\net45" />
+		<file src="src\Opten.Web.Http\bin\Release\Opten.Web.Http.xml" target="lib\net45" />
+	</files>
+</package>
